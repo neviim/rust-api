@@ -1,4 +1,4 @@
-# ufw 
+# Uma API basica em Rust 
 ```zsh
 # libera porta 8000
 sudo ufw allow 8000
