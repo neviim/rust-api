@@ -1,4 +1,4 @@
-##  
+## ufw 
 ```zsh
 # libera porta 8000
 sudo ufw allow 8000
