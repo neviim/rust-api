@@ -34,6 +34,6 @@ cargo build --release && cd target/release/
 
 ## Principais frameworks usadas
 
-[Rocket](https://rocket.rs/) — web framework for writing fast web applications 
-[Diesel](http://diesel.rs/) — safe, extensible ORM and query builder 
+[Rocket](https://rocket.rs/) — web framework for writing fast web applications
+[Diesel](http://diesel.rs/) — safe, extensible ORM and query builder
 [Serde](https://serde.rs/)  — framework for serializing and deserializing Rust data structures 
