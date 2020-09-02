@@ -2,7 +2,6 @@
 ```zsh
 # libera porta 8000
 sudo ufw allow 8000
-
 sudo iptables -A FORWARD -p tcp --dport 8000 -j ACCEPT
 ```
 
