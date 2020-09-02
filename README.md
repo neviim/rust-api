@@ -1,4 +1,4 @@
-#  
+##  
 ```zsh
 # libera porta 8000
 sudo ufw allow 8000
@@ -7,7 +7,7 @@ sudo iptables -A FORWARD -p tcp --dport 8000 -j ACCEPT
 ```
 
 
-## Criando minha api em Rust
+# Criando minha api em Rust
 ```zsh
 mkdir rust-api
 cd rust-api
@@ -25,14 +25,14 @@ diesel migration run
 cargo run
 ```
 
-## Compilando rust
+# Compilando rust
 ```zsh
 cd rust-api
 cargo build --release && cd target/release/
 ```
 
 
-## Principais frameworks usadas
+# Principais frameworks usadas
 ```zsh
 # Rocket — web framework for writing fast web applications 
 (https://rocket.rs/)
